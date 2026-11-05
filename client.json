@@ -1,0 +1,9 @@
+{
+  "client_id": "https://dalilrouabah.github.io/lechat-tableau/client.json",
+  "client_name": "Le Chat Mistral",
+  "client_uri": "https://dalilrouabah.github.io/lechat-tableau/",
+  "redirect_uris": ["https://callback.mistral.ai/v1/integrations_auth/oauth2_callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
